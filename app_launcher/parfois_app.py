@@ -40,23 +40,20 @@ app.layout = html.Div(style={'backgroundColor': 'gray'}, children=[
     ),
 
     html.P(
-        "Web site Check:",
+        "Web site Download:",
         style={"font-weight": "bold", "color": "blue", "fontSize": 16}
     ),
     html.P(
-        "It checks the web site for every reference in the XLS reference call file and updates that "
-        "file based on the presence of a model in every picture linked to that reference/product.",
+        "It checks the web site for every reference in the XLS reference call file and downloads the images for every ref.",
         style={"color": "blue", "fontSize": 14}
     ),
 
     html.P(
-        "Machine Training:",
+        "Downloaded Images Check:",
         style={"font-weight": "bold", "color": "blue", "fontSize": 16}
     ),
     html.P(
-        'It returns the results of the selected buttons. In the case of "Production Stage Check" or '
-        '"Web Site Check," it returns the updated XLS file, showing yes or no for the presence of a '
-        'model. If the user selects "Machine Training", it returns the values for the training performance.',
+        'It returns the results models results for the downloaded images by the "Web Site Download.',
         style={"color": "blue", "fontSize": 14}
     ),
 
